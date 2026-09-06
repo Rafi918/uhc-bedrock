@@ -1,0 +1,41 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "UHC Core",
+    "description": "UHC: dynamic border, team scatter, respawn window, anti-lag. Telegram controlled.",
+    "uuid": "7f3a1c2e-4b5d-4e6f-8a9b-0c1d2e3f4a5b",
+    "version": [
+      1,
+      2,
+      0
+    ],
+    "min_engine_version": [
+      1,
+      26,
+      0
+    ]
+  },
+  "modules": [
+    {
+      "type": "script",
+      "language": "javascript",
+      "entry": "scripts/main.js",
+      "uuid": "1a2b3c4d-5e6f-4a7b-8c9d-0e1f2a3b4c5d",
+      "version": [
+        1,
+        2,
+        0
+      ]
+    }
+  ],
+  "dependencies": [
+    {
+      "module_name": "@minecraft/server",
+      "version": "2.8.0"
+    },
+    {
+      "module_name": "@minecraft/server-net",
+      "version": "1.0.0-beta"
+    }
+  ]
+}
